@@ -69,7 +69,7 @@ function moveRight() {
 
 }
 function moveLeft() {
-    player.x = player.x - 10;
+    player.x += 10;
 }
 function moveDown() {
     player.y = player.y + 10;
